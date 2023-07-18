@@ -10,7 +10,7 @@ def setItemNames(courseName):
     itemName = input('>> ')
     while itemName != '':
         itemName = input('name: ')
-        itemPercentage = input('weight: ')
+        itemNames.append(itemName)
     
     return itemNames
 
