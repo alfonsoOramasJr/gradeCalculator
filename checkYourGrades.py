@@ -40,6 +40,7 @@ def main():
     courseName = setCourseName()
     courseItems = setItemNames(courseName)
     courseWeights = setItemWeights(courseName, courseItems)
+    print(courseItems)
     print(courseWeights)
 
 main()
