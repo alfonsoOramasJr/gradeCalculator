@@ -7,7 +7,7 @@ def setItemNames(courseName):
 
     print(f"Enter the items (homework, exams, etc) for {courseName}.")
     print("Enter nothing to quit entering items.")
-    itemName = input('>> ')
+    itemName = input('name: ')
     while itemName != '':
         itemNames.append(itemName)
         itemName = input('name: ')
