@@ -34,7 +34,9 @@ def findCourseItem(courseName):
     pass
 
 def saveCourseToFile(courseName, courseItems):
-    pass
+    courseFile = open('courses.txt', 'a')
+
+    courseFile.close()
 
 def main():
     courseName = setCourseName()
