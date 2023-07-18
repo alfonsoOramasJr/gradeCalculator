@@ -26,5 +26,6 @@ def findCourseItem(courseName):
 
 def main():
     courseName = setCourseName()
+    courseItems = setCourseItems(courseName)
 
 main()
