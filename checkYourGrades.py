@@ -33,7 +33,7 @@ def removeCourseItem(courseName):
 def findCourseItem(courseName):
     pass
 
-def saveCourseToFile(courseName, courseItems):
+def saveCourseToFile(courseName, courseItems, courseWeights):
     courseFile = open('courses.txt', 'a')
 
     courseFile.close()
