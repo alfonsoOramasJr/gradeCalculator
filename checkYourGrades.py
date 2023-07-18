@@ -9,14 +9,14 @@ def setItemNames(courseName):
     print("Enter nothing to quit entering items.")
     itemName = input('>> ')
     while itemName != '':
-        itemName = input('name: ')
         itemNames.append(itemName)
+        itemName = input('name: ')
     
     return itemNames
 
 def setItemWeights(courseName, itemNames):
     itemWeights = []
-    
+
 
 def addCourseItem(courseName):
     pass
