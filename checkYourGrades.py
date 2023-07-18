@@ -11,8 +11,8 @@ def setCourseItems(courseName):
     print("Enter nothing to quit entering items.")
     itemName = input('>> ')
     while itemName != '':
-        itemName = input('>> ')
         itemNames.append(itemName)
+        itemName = input('>> ')
     
     return itemNames
 
