@@ -15,7 +15,8 @@ def setItemNames(courseName):
     return itemNames
 
 def setItemWeights(courseName, itemNames):
-    pass
+    itemWeights = []
+    
 
 def addCourseItem(courseName):
     pass
