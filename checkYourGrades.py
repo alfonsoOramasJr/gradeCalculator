@@ -25,6 +25,5 @@ def findCourseItem(courseName):
 
 def main():
     courseName = setCourseName()
-    print(courseName)
 
 main()
