@@ -21,6 +21,8 @@ def setItemWeights(courseName, itemNames):
     for item in itemNames:
         itemWeights.append(itemWeight)
         itemWeight = input(f"{item}'s weight is: ")
+    
+    return itemWeights
 
 def addCourseItem(courseName):
     pass
@@ -37,5 +39,6 @@ def saveCourseToFile(courseName, courseItems):
 def main():
     courseName = setCourseName()
     courseItems = setItemNames(courseName)
+    courseWeights = setItemWeights(courseName, courseItems)
 
 main()
