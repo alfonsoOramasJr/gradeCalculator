@@ -1,7 +1,6 @@
 def setCourseName():
     print("Set the name of the course,")
-    courseName = input(">> ")
-    return courseName
+    return input(">> ")
 
 ## So things like homework, classwork, exams, attendance, etc...
 def setCourseItems(courseName):
