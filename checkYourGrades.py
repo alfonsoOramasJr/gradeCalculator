@@ -17,4 +17,4 @@ def findCourseItem(courseName):
     pass
 
 def main():
-    pass
+    courseName = setCourseName()
