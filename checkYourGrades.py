@@ -18,3 +18,5 @@ def findCourseItem(courseName):
 
 def main():
     courseName = setCourseName()
+
+main()
