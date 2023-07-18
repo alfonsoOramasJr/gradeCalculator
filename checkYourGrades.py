@@ -35,7 +35,7 @@ def findCourseItem(courseName):
 
 def saveCourseToFile(courseName, courseItems, courseWeights):
     courseFile = open('courses.txt', 'a')
-
+    
     courseFile.close()
 
 def main():
