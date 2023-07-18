@@ -17,7 +17,7 @@ def setItemNames(courseName):
 def setItemWeights(courseName, itemNames):
     itemWeights = []
 
-    print("Enter the weights for each item (number value) under {courseName}")
+    print(f"Enter the weights for each item (number value) under {courseName}")
     for item in itemNames:
         itemWeight = input(f"{item}'s weight is: ")
         itemWeights.append(itemWeight)
