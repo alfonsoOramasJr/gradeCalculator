@@ -5,7 +5,9 @@ def setCourseName():
 
 ## So things like homework, classwork, exams, attendance, etc...
 def setCourseItems(courseName):
-    pass
+    print("Enter the number amount of items (homework, exams, etc) for this course,")
+    courseItems = input(">> ")
+    courseItems = int(courseItems)
 
 def addCourseItem(courseName):
     pass
