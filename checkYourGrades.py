@@ -2,7 +2,8 @@ def setCourseName():
     print("Set the name of the course,")
     return input(">> ")
 
-## So things like homework, classwork, exams, attendance, etc...
+## bug, since the loop doesn't end until the item name is appended we get an additional empty
+## list item.
 def setCourseItems(courseName):
     itemNames = []
     itemName = 'initial'
