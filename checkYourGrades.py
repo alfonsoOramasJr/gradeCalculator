@@ -3,6 +3,7 @@ def setCourseName():
     return input(">> ")
 
 def setCourseItems(courseName):
+    itemCollection = []
     itemNames = []
 
     print(f"Enter the items (homework, exams, etc) for {courseName}.")
