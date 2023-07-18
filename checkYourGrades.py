@@ -2,17 +2,13 @@ def setCourseName():
     print("Set the name of the course,")
     return input(">> ")
 
-def setCourseItems(courseName):
-    itemCollection = []
-    itemPair = []
+def setItemNames(courseName):
+    itemNames = []
 
     print(f"Enter the items (homework, exams, etc) for {courseName}.")
     print("Enter nothing to quit entering items.")
     itemName = input('>> ')
-    itemPercentage = input('weight: ')
     while itemName != '':
-        itemPair.append(itemName)
-        itemPair.append(itemPercentage)
         itemName = input('name: ')
         itemPercentage = input('weight: ')
     
@@ -32,6 +28,6 @@ def saveCourseToFile(courseName, courseItems):
 
 def main():
     courseName = setCourseName()
-    courseItems = setCourseItems(courseName)
+    courseItems = setItemNames(courseName)
 
 main()
