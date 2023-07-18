@@ -23,6 +23,9 @@ def removeCourseItem(courseName):
 def findCourseItem(courseName):
     pass
 
+def saveCourseToFile(courseName, courseItems):
+    pass
+
 def main():
     courseName = setCourseName()
     courseItems = setCourseItems(courseName)
