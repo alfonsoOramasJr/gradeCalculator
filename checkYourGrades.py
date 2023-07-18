@@ -15,3 +15,6 @@ def removeCourseItem(courseName):
 
 def findCourseItem(courseName):
     pass
+
+def main():
+    pass
