@@ -4,7 +4,7 @@ def setCourseName():
     return courseName
 
 ## So things like homework, classwork, exams, attendance, etc...
-def setCourseItems():
+def setCourseItems(courseName):
     pass
 
 def addCourseItem(courseName):
