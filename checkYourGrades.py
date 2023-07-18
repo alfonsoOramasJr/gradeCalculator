@@ -5,7 +5,7 @@ def setCourseName():
 ## So things like homework, classwork, exams, attendance, etc...
 def setCourseItems(courseName):
     itemNames = []
-    itemName = ' '
+    itemName = 'initial'
 
     print(f"Enter the items (homework, exams, etc) for {courseName},")
     while itemName != '':
