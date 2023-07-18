@@ -5,9 +5,15 @@ def setCourseName():
 
 ## So things like homework, classwork, exams, attendance, etc...
 def setCourseItems(courseName):
-    print("Enter the number amount of items (homework, exams, etc) for this course,")
+    print(f"Enter the number amount of items (homework, exams, etc) for {courseName},")
     courseItems = input(">> ")
     courseItems = int(courseItems)
+
+    itemNames = []
+    for iterator in range(len(courseItems)):
+        itemNames.append(input(f"({iterator}) Enter the name of the course item"))
+    
+    return itemNames
 
 def addCourseItem(courseName):
     pass
