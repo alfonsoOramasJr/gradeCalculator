@@ -6,10 +6,10 @@ def setCourseName():
 ## list item.
 def setCourseItems(courseName):
     itemNames = []
-    itemName = 'initial'
 
     print(f"Enter the items (homework, exams, etc) for {courseName}.")
     print("Enter nothing to quit entering items.")
+    itemName = input('>> ')
     while itemName != '':
         itemName = input('>> ')
         itemNames.append(itemName)
