@@ -1,6 +1,6 @@
 def setCourseName():
     print("Set the name of the course,")
-    return input(">> ")
+    return input("name: ")
 
 def setItemNames(courseName):
     itemNames = []
